@@ -30,7 +30,7 @@ require_once 'functions/pdo_connection.php';
 
                 <section class="col-md-4">
                     <section class="mb-2 overflow-hidden" style="max-height: 15rem;">
-                        <img src="<?= asset($post->image); ?> ?>" height="300" alt="">
+                        <img src="<?= asset($post->image); ?>" height="300" alt="">
                     </section>
                     <h2 class="h5 text-truncate"><?= $post->title; ?></h2>
                     <p><?= substr($post->body, 0, 30) . ' ...'; ?></p>
